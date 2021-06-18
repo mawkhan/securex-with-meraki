@@ -25,6 +25,20 @@
         "properties": {
           "value": "",
           "scope": "input",
+          "name": "observable_value",
+          "type": "datatype.string",
+          "description": "This value will be extracted from SexureX Threat Response. It can be a domain name or a L3 Subnet. E.g: 192.168.x.0/24",
+          "is_required": true,
+          "is_invisible": false
+        },
+        "unique_name": "variable_workflow_01P9N4SZ62YVN4PgLxbmpbSYa8KSDFeMGED",
+        "object_type": "variable_workflow"
+      },
+      {
+        "schema_id": "datatype.string",
+        "properties": {
+          "value": "",
+          "scope": "input",
           "name": "observable_type",
           "type": "datatype.string",
           "description": "This value will be extracted from SexureX Threat Response. It can be either URL or IP",
@@ -46,25 +60,12 @@
         },
         "unique_name": "variable_workflow_01P9N8HHNDBDK1PfGibacu4CmQeSshtC5Mf",
         "object_type": "variable_workflow"
-      },
-      {
-        "schema_id": "datatype.string",
-        "properties": {
-          "value": "",
-          "scope": "input",
-          "name": "observable_value",
-          "type": "datatype.string",
-          "description": "This value will be extracted from SexureX Threat Response. It can be a domain name or a L3 Subnet. E.g: 192.168.x.0/24",
-          "is_required": true,
-          "is_invisible": false
-        },
-        "unique_name": "variable_workflow_01P9N4SZ62YVN4PgLxbmpbSYa8KSDFeMGED",
-        "object_type": "variable_workflow"
       }
     ],
     "properties": {
       "atomic": {
-        "is_atomic": false
+        "atomic_group": "Cisco Meraki",
+        "is_atomic": true
       },
       "delete_workflow_instance": false,
       "description": "This workflow can be used to trigger an block action from a SecureX Threat response on an IP or domain. It will create a deny rule in L3 Firewall Rules inside Meraki dashboard for Meraki MX.\n\nBelow are the steps involved in the execution:\n\n1) Extract the existing Security Rules from Meraki Dashboard\n2) Merge/Append the new Rule with the Existing Rule\n3) Push the updated rule list to the Meraki Dashboard",
