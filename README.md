@@ -32,9 +32,11 @@ The time required to investigate source of threat & then orchestrate policies in
 
 ![4](https://user-images.githubusercontent.com/86117124/122753569-cdf22e80-d2d5-11eb-93b8-626155edcaa9.png)
 
-7) Now you have to update the two variables " Meraki API Key" & " Network ID". Network ID will be the ID of your Meraki Network
+7) Now you have to update the two variables " Meraki API Key" & " Network ID". Network ID will be the ID of your Meraki Network. Also you need to update the Target which you have created earlier
 
 ![5](https://user-images.githubusercontent.com/86117124/122753578-d2b6e280-d2d5-11eb-91b9-1443633537c6.png)
+
+![11](https://user-images.githubusercontent.com/86117124/122755965-19f2a280-d2d9-11eb-9337-1f89959c6ab8.png)
 
 8) At this stage, you are ready to Run this workflow directly from same window or you can execute this from SecureX Threat Response. Open the threat response page, start any investigation and then from the observable graph, you can righ click on any observable ( IP or Domain ) and select the workflow which you have just imported "Blocking URL/IP in Meraki MX Firewall
 
