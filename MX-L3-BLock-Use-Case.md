@@ -14,11 +14,15 @@ The time required to investigate source of threat & then orchestrate policies in
 
 ![1](https://user-images.githubusercontent.com/86117124/122742851-bb71f800-d2c9-11eb-8ab1-09cabf632339.png)
 
-3) Below are the target settings:
+3) Add new target with below settings:
 
 - Display name: Meraki
 - Account Keys: No Account Keys - True
 - HTTP- Protocol: HTTPS, Host/IP Address: api.meraki.com, port 443, PATH:/api
+
+![12](https://user-images.githubusercontent.com/86117124/122756621-fed46280-d2d9-11eb-9b36-b3f0b1b78ad1.png)
+
+![13](https://user-images.githubusercontent.com/86117124/122756629-0267e980-d2da-11eb-9e4c-38ad311e4b7a.png)
 
 4) Now goto "workflows", choose "atomic" and select import as shown below:
 
