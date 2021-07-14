@@ -1,8 +1,6 @@
 # Securex Orchestration in Meraki MX L3 Firewall Rules
 
-Cisco SecureX Workflow for blocking an IP Address in Meraki MX Firewall Security Rules
-
-# Blocking a destination in MX L3 Security Rules from SecureX Threat Response
+Cisco SecureX Workflow for blocking an desitnation IP Address in Meraki MX L3 Firewall Security Rules from SecureX Threat Response.
 
 The time required to investigate source of threat & then orchestrate policies in the network to block that threat throughout a large Enterprise Network is critical for organizational security. This code leverages the Meraki API's to orchestrate a deny rule in MX Security policies, which can be trigger directly from Threat Response
 
