@@ -1,6 +1,6 @@
-# securex-with-meraki
+# Securex Orchestration in Meraki MX L3 Firewall Rules
 
-Cisco SecureX Workflows with Meraki MX Firewall
+Cisco SecureX Workflow for blocking an IP Address in Meraki MX Firewall Security Rules
 
 # Blocking a destination in MX L3 Security Rules from SecureX Threat Response
 
@@ -57,3 +57,8 @@ The time required to investigate source of threat & then orchestrate policies in
 ![10](https://user-images.githubusercontent.com/86117124/122753654-e8c4a300-d2d5-11eb-82ec-58a09a2afa06.png)
 
 You have now seccessfully orchestrate a Layer 3 deny rule while doing threat hunting from SexureX Threat Response
+
+
+{{Learning Resources}
+
+https://developer.cisco.com/learning/modules/SecureX-orchestration
