@@ -59,6 +59,6 @@ Configuration Steps:
 You have now seccessfully orchestrate a Layer 3 deny rule while doing threat hunting from SexureX Threat Response
 
 
-# Learning Resources
+# Links to DevNet Learning Labs
+[SecureX Orchestration](#https://developer.cisco.com/learning/modules/SecureX-orchestration)
 
-https://developer.cisco.com/learning/modules/SecureX-orchestration
