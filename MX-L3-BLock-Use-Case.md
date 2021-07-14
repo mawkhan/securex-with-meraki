@@ -60,5 +60,5 @@ You have now seccessfully orchestrate a Layer 3 deny rule while doing threat hun
 
 
 # Links to DevNet Learning Labs
-[SecureX Orchestration](#secureX-orchestration)
+[SecureX Orchestration](https://developer.cisco.com/learning/modules/SecureX-orchestration)
 
