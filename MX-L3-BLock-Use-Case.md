@@ -7,7 +7,7 @@ Cisco SecureX Workflow for blocking an IP Address in Meraki MX Firewall Security
 The time required to investigate source of threat & then orchestrate policies in the network to block that threat throughout a large Enterprise Network is critical for organizational security. This code leverages the Meraki API's to orchestrate a deny rule in MX Security policies, which can be trigger directly from Threat Response
 
 
-{{Configuration Steps}
+Configuration Steps:
 
 1) Logged into https://securex.cisco.com/ and navigatte to SecureX orchestration
 2) Define targets by navigating to Targets on the left hand side as show below:
