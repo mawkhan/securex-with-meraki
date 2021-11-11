@@ -29,7 +29,7 @@ The time required to investigate source of threat & then orchestrate policies in
 
 ![2](https://user-images.githubusercontent.com/86117124/122753545-c3d03000-d2d5-11eb-8451-a9a5a20d3bcc.png)
 
-5) Click on import and then paste the code which you have copied from this repository and then click import
+5) Goto file name"code" in this repository, it is json formatted code which need to be copied and then paste in SecureX Orcuestration. Click on import and then paste the code which you have just copied
 
 ![3](https://user-images.githubusercontent.com/86117124/122753560-c92d7a80-d2d5-11eb-93d9-71db401edf23.png)
 
