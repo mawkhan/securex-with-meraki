@@ -1,4 +1,13 @@
-*.bet365.com.au
-.msn.com
+# Title: Test DNS Blocklist
+# Description: Blocks Roku native broadband tracker that track your activity.
+# Homepage: https://github.com/mawkhan/securex-with-meraki
+# License: https://github.com/mawkhan/securex-with-meraki/blob/main/LICENSE
+# Issues: https://github.com/mawkhan/securex-with-meraki/blob/main/MX-L3-Block
+# Expires: 1 day
+# Last modified: 18 Jan 2025 19:15 UTC
+# Version: 2025.0118.1915.22
+# Syntax: Domains (including possible subdomains)
+# Number of entries: 2
+#
 *.msn.com
-www.msn.com
+*.bet365.com.au
