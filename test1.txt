@@ -1,1 +1,2 @@
 *.bet365.com.au
+msn.com
